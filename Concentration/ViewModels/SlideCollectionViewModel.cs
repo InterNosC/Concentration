@@ -99,7 +99,7 @@ namespace Concentration.ViewModels
             var models = GetModelsFrom(@imagesPath);
 
             //Create slides with matching pairs from models
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 12; i += 2)
             {
                 //Create 2 matching slides
                 var newSlide = new PictureViewModel(models[i]);
@@ -143,7 +143,7 @@ namespace Concentration.ViewModels
         /// <returns></returns>
         public bool CheckIfMatched()
         {
-            if ((SelectedSlide1.Id == SelectedSlide2.Id - 1 || SelectedSlide1.Id - 1 == SelectedSlide2.Id) && SelectedSlide1.SlideImage != SelectedSlide2.SlideImage)
+            if ((SelectedSlide1.Id == SelectedSlide2.Id - 1 || SelectedSlide1.Id - 1 == SelectedSlide2.Id) && SelectedSlide1.SlideImage == SelectedSlide2.SlideImage)
             {
                 MatchCorrect();
                 return true;

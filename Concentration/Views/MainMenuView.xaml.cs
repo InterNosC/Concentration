@@ -33,8 +33,7 @@ namespace Concentration.Views
 
         private void PlayAgain_C(object sender, RoutedEventArgs e)
         {
-            var game = DataContext as GameViewModel;
-            game.Restart();
+            DataContext = new StartMenuViewModel(new MainWindow());
         }
     }
 }
