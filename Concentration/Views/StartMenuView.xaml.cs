@@ -27,7 +27,8 @@ namespace Concentration.Views
         private void Play_Clicked(object sender, RoutedEventArgs e)
         {
             var startMenu = DataContext as StartMenuViewModel;
-            startMenu.StartNewGame(categoryBox.SelectedIndex);
+            if (categoryBox.SelectedIndex != -1)
+                startMenu.StartNewGame(categoryBox.SelectedIndex);
         }
     }
 }

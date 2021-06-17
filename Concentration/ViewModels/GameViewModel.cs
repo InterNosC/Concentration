@@ -103,7 +103,7 @@ namespace Concentration.ViewModels
         /// </summary>
         private void GameStatus()
         {
-            if (GameInfo.MatchAttempts < 0)
+            if (GameInfo.MatchAttempts <= 0)
             {
                 GameInfo.GameStatus(false);
                 Slides.RevealUnmatched();

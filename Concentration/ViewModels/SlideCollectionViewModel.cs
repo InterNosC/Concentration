@@ -34,12 +34,12 @@ namespace Concentration.ViewModels
         /// <summary>
         /// Interval for how long a user peeks at selections.
         /// </summary>
-        private const int _peekSeconds = 3;
+        private const int _peekSeconds = 1;
 
         /// <summary>
         /// Interval for how long a user has to memorize slides.
         /// </summary>
-        private const int _openSeconds = 5;
+        private const int _openSeconds = 3;
 
         /// <summary>
         /// Are selected slides still being displayed.
@@ -230,9 +230,8 @@ namespace Concentration.ViewModels
             //List of models for picture slides
             var models = new List<PictureModel>();
             //Get all image URIs in folder
-            string startupPath = System.IO.Directory.GetCurrentDirectory();
-            startupPath = startupPath.Replace("bin\\Debug\\netcoreapp3.1", "");
-            var images = Directory.GetFiles(startupPath + @relativePath, "*.jpg", SearchOption.AllDirectories);
+            string startupPath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName);
+            var images = Directory.GetFiles(startupPath + "\\" + @relativePath, "*.jpg", SearchOption.AllDirectories);
             //Slide id begin at 0
             var id = 0;
 
