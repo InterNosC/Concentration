@@ -3,6 +3,9 @@ using System.Windows.Media;
 
 namespace Concentration.ViewModels
 {
+    /// <summary>
+    /// Everything that relativ to image.
+    /// </summary>
     public class PictureViewModel : ObservableObject
     {
         /// <summary>

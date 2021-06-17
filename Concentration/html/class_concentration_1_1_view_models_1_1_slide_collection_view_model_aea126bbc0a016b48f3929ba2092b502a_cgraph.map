@@ -1,0 +1,6 @@
+<map id="Concentration.ViewModels.SlideCollectionViewModel.SelectSlide" name="Concentration.ViewModels.SlideCollectionViewModel.SelectSlide">
+<area shape="rect" id="node1" title="Select a slide to be matched." alt="" coords="5,64,247,105"/>
+<area shape="rect" id="node2" href="$class_concentration_1_1_view_models_1_1_slide_collection_view_model.html#a9e333c31d485598abd126ba1877529fc" title="Hid all slides that are unmatched." alt="" coords="295,5,561,47"/>
+<area shape="rect" id="node3" href="$class_concentration_1_1_view_models_1_1_observable_object.html#a8fec814552003d9d50d8f18e7b7d9176" title=" " alt="" coords="609,93,855,135"/>
+<area shape="rect" id="node4" href="$class_concentration_1_1_view_models_1_1_picture_view_model.html#a10a68e18f6fbeb8562baf60eb655799e" title="Let user view" alt="" coords="324,123,532,164"/>
+</map>

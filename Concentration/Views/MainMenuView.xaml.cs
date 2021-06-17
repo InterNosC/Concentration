@@ -24,6 +24,11 @@ namespace Concentration.Views
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Click on Imagge.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Slide_Clicked(object sender, RoutedEventArgs e)
         {
             var game = DataContext as GameViewModel;
@@ -31,6 +36,11 @@ namespace Concentration.Views
             game.ClickedSlide(button.DataContext);
         }
 
+        /// <summary>
+        /// Restort game.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void PlayAgain_C(object sender, RoutedEventArgs e)
         {
             var game = DataContext as GameViewModel;

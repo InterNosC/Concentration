@@ -9,6 +9,9 @@ using System.Windows.Threading;
 
 namespace Concentration.ViewModels
 {
+    /// <summary>
+    /// Work with array of images. 
+    /// </summary>
     public class SlideCollectionViewModel : ObservableObject
     {
         /// <summary>

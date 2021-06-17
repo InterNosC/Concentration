@@ -4,12 +4,18 @@ using System.Text;
 
 namespace Concentration.ViewModels
 {
+    /// <summary>
+    /// What we can select.
+    /// </summary>
     public enum SlideCategories
     {
         Animals,
         Cars,
         Foods
     }
+    /// <summary>
+    /// Set up Timer, main game info and slides.
+    /// </summary>
     public class GameViewModel : ObservableObject
     {
         /// <summary>

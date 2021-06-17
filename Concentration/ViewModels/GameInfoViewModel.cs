@@ -5,6 +5,9 @@ using System.Windows;
 
 namespace Concentration.ViewModels
 {
+    /// <summary>
+    /// About score, attemps and time.
+    /// </summary>
     public class GameInfoViewModel : ObservableObject
     {
         // const of maximum attemps

@@ -1,0 +1,5 @@
+<map id="Concentration.ViewModels.GameInfoViewModel" name="Concentration.ViewModels.GameInfoViewModel">
+<area shape="rect" id="node1" title="About score, attemps and time." alt="" coords="5,256,185,436"/>
+<area shape="rect" id="node2" href="$class_concentration_1_1_view_models_1_1_observable_object.html" title="This is intended to be the base class for ViewModel types, or any type that must provide property cha..." alt="" coords="16,131,175,208"/>
+<area shape="rect" id="node3" title=" " alt="" coords="16,5,175,83"/>
+</map>

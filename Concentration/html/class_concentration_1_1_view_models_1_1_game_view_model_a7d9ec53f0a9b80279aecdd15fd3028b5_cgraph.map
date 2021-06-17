@@ -1,0 +1,10 @@
+<map id="Concentration.ViewModels.GameViewModel.ClickedSlide" name="Concentration.ViewModels.GameViewModel.ClickedSlide">
+<area shape="rect" id="node1" title="Slide has been clicked." alt="" coords="5,116,201,157"/>
+<area shape="rect" id="node2" href="$class_concentration_1_1_view_models_1_1_game_info_view_model.html#a549f288b3b247b64dc47674500cf0385" title="Award method to add points." alt="" coords="280,5,460,47"/>
+<area shape="rect" id="node3" href="$class_concentration_1_1_view_models_1_1_slide_collection_view_model.html#a0ac1f0f4caeb67e88a64c7bcd6a99686" title="Are the selected slides a match." alt="" coords="264,71,476,127"/>
+<area shape="rect" id="node4" href="$class_concentration_1_1_view_models_1_1_game_info_view_model.html#ac920360c8ca3423bdbcb8344a8470015" title="Lose method of points." alt="" coords="273,152,467,193"/>
+<area shape="rect" id="node5" href="$class_concentration_1_1_view_models_1_1_slide_collection_view_model.html#aea126bbc0a016b48f3929ba2092b502a" title="Select a slide to be matched." alt="" coords="249,217,491,259"/>
+<area shape="rect" id="node6" href="$class_concentration_1_1_view_models_1_1_slide_collection_view_model.html#a9e333c31d485598abd126ba1877529fc" title="Hid all slides that are unmatched." alt="" coords="539,159,805,200"/>
+<area shape="rect" id="node7" href="$class_concentration_1_1_view_models_1_1_observable_object.html#a8fec814552003d9d50d8f18e7b7d9176" title=" " alt="" coords="853,247,1099,288"/>
+<area shape="rect" id="node8" href="$class_concentration_1_1_view_models_1_1_picture_view_model.html#a10a68e18f6fbeb8562baf60eb655799e" title="Let user view" alt="" coords="568,276,776,317"/>
+</map>

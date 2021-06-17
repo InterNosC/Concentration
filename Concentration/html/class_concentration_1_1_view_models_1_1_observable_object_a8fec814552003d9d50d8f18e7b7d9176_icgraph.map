@@ -1,0 +1,10 @@
+<map id="Concentration.ViewModels.ObservableObject.OnPropertyChanged" name="Concentration.ViewModels.ObservableObject.OnPropertyChanged">
+<area shape="rect" id="node1" title=" " alt="" coords="804,181,1049,223"/>
+<area shape="rect" id="node2" href="$class_concentration_1_1_view_models_1_1_game_info_view_model.html#a4b0bcb6282e77561826a08dfedeb9371" title="To Default values." alt="" coords="550,5,745,47"/>
+<area shape="rect" id="node3" href="$class_concentration_1_1_view_models_1_1_picture_view_model.html#ae224260446208b0d756ed75f49501fef" title="No longer being viewed." alt="" coords="551,71,744,112"/>
+<area shape="rect" id="node4" href="$class_concentration_1_1_view_models_1_1_slide_collection_view_model.html#a9534452768fdc36f3f4f62d58598cbc0" title="Create slides from images in file directory." alt="" coords="541,137,754,193"/>
+<area shape="rect" id="node5" href="$class_concentration_1_1_view_models_1_1_game_info_view_model.html#a4609ef901834bd21b5660fc46237f86e" title="Game status property." alt="" coords="539,217,756,259"/>
+<area shape="rect" id="node6" href="$class_concentration_1_1_view_models_1_1_picture_view_model.html#a10a68e18f6fbeb8562baf60eb655799e" title="Let user view" alt="" coords="543,283,751,324"/>
+<area shape="rect" id="node7" href="$class_concentration_1_1_view_models_1_1_slide_collection_view_model.html#aea126bbc0a016b48f3929ba2092b502a" title="Select a slide to be matched." alt="" coords="249,312,491,353"/>
+<area shape="rect" id="node8" href="$class_concentration_1_1_view_models_1_1_game_view_model.html#a7d9ec53f0a9b80279aecdd15fd3028b5" title="Slide has been clicked." alt="" coords="5,312,201,353"/>
+</map>
