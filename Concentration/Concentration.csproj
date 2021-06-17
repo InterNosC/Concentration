@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Animals\bear_image.jpg" />
+    <None Remove="Assets\Animals\deer_image.jpg" />
+    <None Remove="Assets\Animals\eagle_image.jpg" />
+    <None Remove="Assets\Animals\fish_image.jpg" />
+    <None Remove="Assets\Animals\fox_image.jpg" />
+    <None Remove="Assets\Animals\rabbit_image.jpg" />
+    <None Remove="Assets\black_background.jpg" />
+    <None Remove="Assets\Cars\blackcar_image.jpg" />
+    <None Remove="Assets\Cars\bluecar_image.jpg" />
+    <None Remove="Assets\Cars\greencar_image.jpeg" />
+    <None Remove="Assets\Cars\orangecar_image.jpg" />
+    <None Remove="Assets\Cars\redcar_image2.jpg" />
+    <None Remove="Assets\Cars\whitecar_image.jpg" />
+    <None Remove="Assets\Cars\yellowcar_image.jpg" />
+    <None Remove="Assets\Foods\apple_image.jpg" />
+    <None Remove="Assets\Foods\banana_image.jpg" />
+    <None Remove="Assets\Foods\grape_image.jpg" />
+    <None Remove="Assets\Foods\orange_image.jpg" />
+    <None Remove="Assets\Foods\pepper_image.jpg" />
+    <None Remove="Assets\Foods\pineapple_image.jpg" />
+    <None Remove="Assets\greenblock.png" />
+    <None Remove="Assets\mystery_image.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Animals\bear_image.jpg" />
+    <Resource Include="Assets\Animals\deer_image.jpg" />
+    <Resource Include="Assets\Animals\eagle_image.jpg" />
+    <Resource Include="Assets\Animals\fish_image.jpg" />
+    <Resource Include="Assets\Animals\fox_image.jpg" />
+    <Resource Include="Assets\Animals\rabbit_image.jpg" />
+    <Resource Include="Assets\black_background.jpg" />
+    <Resource Include="Assets\Cars\blackcar_image.jpg" />
+    <Resource Include="Assets\Cars\bluecar_image.jpg" />
+    <Resource Include="Assets\Cars\greencar_image.jpeg" />
+    <Resource Include="Assets\Cars\orangecar_image.jpg" />
+    <Resource Include="Assets\Cars\redcar_image2.jpg" />
+    <Resource Include="Assets\Cars\whitecar_image.jpg" />
+    <Resource Include="Assets\Cars\yellowcar_image.jpg" />
+    <Resource Include="Assets\Foods\apple_image.jpg" />
+    <Resource Include="Assets\Foods\banana_image.jpg" />
+    <Resource Include="Assets\Foods\grape_image.jpg" />
+    <Resource Include="Assets\Foods\orange_image.jpg" />
+    <Resource Include="Assets\Foods\pepper_image.jpg" />
+    <Resource Include="Assets\Foods\pineapple_image.jpg" />
+    <Resource Include="Assets\greenblock.png" />
+    <Resource Include="Assets\mystery_image.jpg" />
+  </ItemGroup>
+
+</Project>
